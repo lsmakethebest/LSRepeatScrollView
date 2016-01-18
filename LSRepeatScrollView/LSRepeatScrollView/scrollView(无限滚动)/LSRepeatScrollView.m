@@ -59,10 +59,7 @@
     self.leftImageView = [self addImageView];
     self.midImageView = [self addImageView];
     self.rightImageView = [self addImageView];
-    
-    //    self.leftImageView.backgroundColor = [UIColor orangeColor];
-    //    self.midImageView.backgroundColor = [UIColor lightGrayColor];
-    //    self.rightImageView.backgroundColor = [UIColor whiteColor];
+
 }
 
 - (UIImageView*)addImageView
@@ -203,7 +200,7 @@
 }
 -(void)autoRepeat
 {
-    [self.scrollView setContentOffset:CGRectMake(2*Width, 0, Width, Height) animated:YES]
+    [self.scrollView setContentOffset:CGPointMake(2*Width, 0) animated:YES];
 }
 -(void)dealloc
 {

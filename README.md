@@ -38,3 +38,4 @@
 
     [self.images addObject:model4];
     repeatView.images = self.images;
+![image](https://github.com/lsmakethebest/LSRepeatScrollView/blob/master/images/scroll.gif)
